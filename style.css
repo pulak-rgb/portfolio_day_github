@@ -1,0 +1,281 @@
+body {
+ max-width: 1024px;
+ min-width: 1024px;
+ margin: 0 auto;
+ font-family: Arial, sans-serif;
+ padding: 0;
+ background-color: #419b65;
+}
+
+.header-container{
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ background: #b49910;
+ padding: 10px 20px;
+ text-align: center;
+ border-bottom-left-radius: 10px;
+ border-bottom-right-radius: 10px;
+ 
+}
+.portfolio-name{
+ color: black;
+ font-size: 25px;
+ font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.nav-bar{
+ list-style: none;
+ display: flex;
+ gap: 70px;
+ 
+}
+.nav-bar>li:first-child{
+ border-bottom: 2px solid rgb(247, 247, 251);
+}
+.nav-bar>li>a:hover{
+ /* text-decoration: underline; */
+ border-bottom: 2px solid rgb(249, 249, 249);
+ color: #7ce426;
+}
+
+nav ul {
+ list-style: none;
+ padding: 0;
+}
+
+nav ul li {
+ display: inline;
+ margin: 0 15px;
+}
+
+nav a {
+ color: #ffffff;
+ text-decoration: none;
+}
+
+section {
+ padding: 20px;
+ margin: 10px;
+ background: #fff;
+ border-radius: 8px;
+}
+/* About Css start */
+.about-container {
+ display: flex;
+ gap: 20px;
+ align-items: center;
+ 
+}
+
+.about-container>.about-pic>img { width: 280px;
+ display:  flex;
+ border: 5px solid yellowgreen;
+ border-radius: 15px 0px 15px 0px
+ 
+}
+
+.portfolio-item {
+ margin-bottom: 20px;
+}
+
+.about-text{
+ padding: 0px 10px;
+}
+
+.about-text>h2 {
+ font-size: 35px;
+ border-bottom: 2px solid black;
+}
+
+.about-description {
+ text-align: justify;
+}
+/* About css end */
+
+/* Skill css start */
+
+.skills {
+ background: white;
+ padding: 20px;
+ border-radius: 8px;
+ box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.skill-title {
+ text-align: center;
+ color: #333;
+}
+
+.skill {
+ margin: 15px 0;
+}
+
+.skill>h3{
+ font-size: 16px;
+}
+.progress {
+ background: #e0e0e0;
+ border-radius: 5px;
+ overflow: hidden;
+ height: 20px;
+}
+
+.progress-bar {
+ height: 100%;
+ transition: width 0.3s ease;
+}
+
+.html {
+ width: 90%;
+ background: #e44d26; 
+}
+
+.css {
+ width: 80%;
+ background: #1572B6; 
+}
+
+.js {
+ width: 75%;
+ background: #F7DF1E; 
+}
+
+.react {
+ width: 70%;
+ background: #61DAFB; 
+}
+/* Skill css end */
+
+/* Project css start */
+.project-title{
+ text-align: center;
+}
+.project-item-container{
+ display: flex;
+ flex-wrap: wrap;
+ gap: 10px;
+ align-items: center;
+ justify-content: center;
+ justify-items: center;
+}
+
+.project-item{
+ cursor: pointer;
+ border: 2px solid gray;
+ padding: 5px;
+ border-radius: 5px;
+ background-color: #60e249e4;
+}
+.project-item>img{
+ max-width: 500px;
+ max-height: 400px;
+ 
+}
+.project-button{
+ border-radius: 5px;
+ padding: 5px 10px;
+ background-color: #2bbd65;
+}
+.project-button:hover{
+ cursor: pointer;
+ background-color: #40d37b;
+}
+
+/* Project css end */
+
+/* Contact css start */
+#contact{
+ display: flex;
+ /* width: 1024px; */
+ gap: 10px;
+}
+
+.contact-form{
+ display: grid;
+ 
+}
+
+.contact-form>input{
+ margin-bottom: 10px;
+ padding: 5px;
+}
+
+.contact-form>textarea{
+ max-width: 449px;
+ min-height: 48px;
+ max-height: 48px;
+ padding: 5px;
+}
+
+.contact-form>button{
+ margin-top: 10px;
+ padding: 5px;
+ font-size: 15px;
+ border: 1px solid black;
+ border-radius: 5px;
+}
+.contact-form>button:hover{
+ cursor: pointer;
+ border: none;
+ background-color: yellowgreen;
+ color: white;
+ 
+}
+
+.contact-img>img{
+ border-radius: 10px;
+ width: 500px;
+ height: 360px;
+}
+/* Contact css end */
+
+
+/* Footer css start */
+.footer-container{
+ display: flex;
+ align-items: center;
+ justify-content:space-around;
+ background-color: #131F22;
+ color: #FFFFFF;
+ padding: 20px 0px;
+}
+
+.footer-text-container{
+ max-width: 400px;
+}
+
+.icon-links>a{
+ padding-right: 10px;
+}
+
+.foot-ico{
+ width: 20px;
+ border-radius: 10px;
+ border: 2px solid white;
+}
+
+.right-footer{
+ max-width: 500px;
+ display: flex;
+ gap: 20px;
+}
+
+.right-footer>div>img{
+ width: 80px;
+}
+.dual-foot{
+ background-color: #17262B;
+ padding: 0 15px;
+ padding-top: 5px;
+ border: 1px solid white;
+ border-radius: 5px;
+ text-align: center;
+ color: white;
+}
+.dual-foot-link{
+ color: white;
+ text-decoration: none;
+}
+
+
+/* Footer css end */
